@@ -7,7 +7,7 @@
   /* font-style: normal; */
 }
 
-/* Nav Link Hover Underline Effect  */
+/* NAV LINK HOVER UNDERLINE EFFECT  */
 .hover-underline {
   position: relative;
   color: inherit;
@@ -28,6 +28,11 @@
 }
 
 .hover-underline:hover::after {
+  transform: scaleX(1);
+}
+
+/* ACTIVE PAGE NAV LINK UNDERLINE EFFECT */
+.hover-underline.active::after {
   transform: scaleX(1);
 }
 
