@@ -7,6 +7,10 @@
   /* font-style: normal; */
 }
 
+body {
+  background-color: #2c312f;
+}
+
 /* NAV LINK HOVER UNDERLINE EFFECT  */
 .hover-underline {
   position: relative;
@@ -53,15 +57,53 @@
 .nav-socials-container {
   font-family: "Sansation", sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-right: 3vh;
-  width: 42vh;
+  width: 40vh;
 }
 
 .nav-socials > a {
   padding: 5px;
 }
 
-body {
-  background-color: #2c312f;
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  justify-content: space-between;
+}
+
+.hamburger span {
+  display: block;
+  height: 4px;
+  background: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* MEDIA QUERIES */
+
+/* HAMBURGER NAV MENU */
+@media (max-width: 768px) {
+  .nav-socials-container {
+    width: 20vh;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #282628;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
 }

@@ -13,6 +13,13 @@
       href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+      }
+    </script>
   </head>
   <body>
     <!-- NAV BAR -->
@@ -66,11 +73,16 @@
             </svg>
           </a>
         </div>
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <div class="nav-links">
           <a href="#home" class="hover-underline nav-underline active">Home</a>
+          <a href="#about" class="hover-underline">About</a>
           <a href="#projects" class="hover-underline">Projects</a>
           <a href="#contact" class="hover-underline">Contact</a>
-          <a href="#" class="hover-underline">Something</a>
         </div>
       </div>
     </nav>
