@@ -1,19 +1,68 @@
+/* HERO SECTION */
 .hero-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 20px;
+  height: 100vh;
+}
+
+/* HERO IMAGE */
+.hero-image {
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
 }
 
 .hero-header-container {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  justify-content: space-evenly;
+  height: 50%;
   width: 50%;
 }
 
-.hero-image {
-  width: 300px;
-  height: auto;
+/* HERO HEADERS */
+.hero-header {
+  margin: 1rem;
+}
+.hero-header > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.hero-header > h1 {
+  font-size: 3rem;
+  /* color: #005f27; */
+  color: #007d32;
+}
+
+/* HERO ABOUT PARAGRAPHS */
+.hero-about {
+  display: block;
+  margin: 1rem;
+}
+
+.hero-about > p {
+  margin: 0.7rem 0;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+/* HERO TECH SECTION */
+.hero-tech-skills {
+  margin: 1rem;
+}
+
+.hero-tech-skills > h2 {
+  font-size: 1.5rem;
+  color: #007d32;
+  line-height: 1.5;
+}
+
+.hero-tech-skills > p {
+  font-size: 1.1rem;
+  color: #007d32;
 }
