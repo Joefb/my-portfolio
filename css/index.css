@@ -48,6 +48,7 @@
 .hero-about > p {
   margin: 0.7rem 0;
   font-size: 1.2rem;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -64,5 +65,9 @@
 
 .hero-tech-skills > p {
   font-size: 1.1rem;
-  color: #007d32;
+  /* color: #007d32; */
+}
+
+.hero-tech-skills > p > span {
+  font-weight: 500;
 }
