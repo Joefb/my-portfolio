@@ -29,6 +29,23 @@
   width: 30%;
 }
 
+.card-description {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.card-ul-header {
+  color: #007d32;
+  font-size: 1.5rem;
+}
+
+.card-ul li {
+  font-size: 1rem;
+  /* list-style-type: disc; */
+  font-weight: 500;
+}
+
 .card-img {
   display: flex;
   gap: 16px;
@@ -52,6 +69,21 @@
 
 .projects-header {
   text-align: center;
+}
+
+.card-tech-ul {
+  display: flex;
+  gap: 0.5rem;
+  /* width: 50%; */
+}
+
+.card-tech-ul li {
+  border: 1px solid #007d32;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.7rem;
+  /* margin: 0.2rem; */
+  padding: 0.2rem 0.6rem;
 }
 
 .projects-header > h2 {
