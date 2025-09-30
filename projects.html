@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portfolio</title>
     <link href="./css/style.css" rel="stylesheet" />
-    <link href="./css/about.css" rel="stylesheet" />
+    <link href="./css/projects.css" rel="stylesheet" />
     <link href="./css/reset.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,11 +23,11 @@
   </head>
   <body>
     <!-- NAV BAR -->
-    <nav class="nav-container">
+    <header class="nav-container">
       <div class="nav-name">
         <a href="./about.html" class="hover-underline">Joseph Burgess</a>
       </div>
-      <div class="nav-socials-container">
+      <nav class="nav-socials-container">
         <div class="nav-socials">
           <a
             href="www.linkedin.com/in/joe-f-burgess"
@@ -98,7 +98,65 @@
           >
           <a href="./contact.html" class="hover-underline">Contact</a>
         </div>
+      </nav>
+    </header>
+    <section class="projects-container">
+      <div class="projects-header">
+        <h2>Featured Projects</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore,
+          adipisci!
+        </p>
       </div>
-    </nav>
+
+      <!-- FLEX COLUMN -->
+      <div class="projects-cards-container">
+        <!-- FLEX ROW -->
+        <div class="project-card">
+          <div class="project-card fade-in">
+            <img src="./assets/project1.png" alt="Project 1 Screenshot" />
+            <h3>Project One</h3>
+            <p>
+              A brief description of Project One. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+            <a href="#" class="hover-underline">View Project</a>
+          </div>
+
+          <div class="project-card fade-in">
+            <img src="./assets/project2.png" alt="Project 2 Screenshot" />
+            <h3>Project Two</h3>
+            <p>
+              A brief description of Project Two. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+            <a href="#" class="hover-underline">View Project</a>
+          </div>
+        </div>
+
+        <!-- FLEX ROW -->
+        <div class="project-card">
+          <div class="project-card fade-in">
+            <img src="./assets/project3.png" alt="Project 3 Screenshot" />
+            <h3>Project Three</h3>
+            <p>
+              A brief description of Project Three. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+            <a href="#" class="hover-underline">View Project</a>
+          </div>
+
+          <div class="project-card fade-in">
+            <img src="./assets/project3.png" alt="Project 3 Screenshot" />
+            <h3>Project Four</h3>
+            <p>
+              A brief description of Project Three. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+            <a href="#" class="hover-underline">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
