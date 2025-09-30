@@ -1,15 +1,3 @@
-/* IMAGE ANIMATION */
-.fade-in {
-  opacity: 0;
-  animation: fadeInAnimation 0.5s ease-in forwards;
-}
-
-@keyframes fadeInAnimation {
-  to {
-    opacity: 1;
-  }
-}
-
 /* HERO SECTION */
 .hero-container {
   display: flex;
