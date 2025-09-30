@@ -67,6 +67,23 @@ body {
   padding: 5px;
 }
 
+/* FOOTER SECTION */
+.footer-container {
+  background-color: #282628;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  height: 6vh;
+}
+
+.footer-container > p {
+  margin: 1.5vh;
+  font-size: 12px;
+}
+
 /* HAMBURGER MENU */
 .hamburger {
   display: none;
