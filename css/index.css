@@ -1,0 +1,162 @@
+/* IMAGE ANIMATION */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 0.5s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
+
+/* HERO SECTION */
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+/* HERO IMAGE */
+.hero-image {
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.hero-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50%;
+  width: 50%;
+}
+
+/* HERO HEADERS */
+.hero-header {
+  margin: 1rem;
+}
+.hero-header > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.hero-header > h1 {
+  font-size: 3rem;
+  /* color: #005f27; */
+  color: #007d32;
+}
+
+/* HERO ABOUT PARAGRAPHS */
+.hero-about {
+  display: block;
+  margin: 1rem;
+}
+
+.hero-about > p {
+  margin: 0.7rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* HERO TECH SECTION */
+.hero-tech-skills {
+  margin: 1rem;
+}
+
+.hero-tech-skills > h2 {
+  font-size: 1.5rem;
+  color: #007d32;
+  line-height: 1.5;
+}
+
+.hero-tech-skills > p {
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+.hero-tech-skills > p > span {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    height: auto;
+  }
+
+  .hero-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .hero-header > h2 {
+    text-align: center;
+  }
+
+  .hero-header > h1 {
+    text-align: center;
+  }
+
+  .hero-tech-skills > p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* PROJECTS SECTION */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  height: 70vh;
+}
+
+.projects-cards-container {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projects-header {
+  text-align: center;
+}
+
+.projects-header > h2 {
+  font-size: 2.5rem;
+  color: #007d32;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.projects-header > p {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}

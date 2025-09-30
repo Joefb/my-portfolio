@@ -2,9 +2,9 @@
 * {
   color: white;
   text-decoration: none;
-  /* font-family: "Sansation", sans-serif; */
-  /* font-weight: 700; */
-  /* font-style: normal; */
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 body {
@@ -47,15 +47,16 @@ body {
   align-items: center;
   background-color: #282628;
   height: 6vh;
+  position: sticky;
+  z-index: 100;
+  top: 0;
 }
 
 .nav-name {
   margin-left: 3vh;
-  font-family: "Sansation", sans-serif;
 }
 
 .nav-socials-container {
-  font-family: "Sansation", sans-serif;
   display: flex;
   justify-content: space-evenly;
   margin-right: 3vh;

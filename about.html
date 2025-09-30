@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portfolio</title>
     <link href="./css/style.css" rel="stylesheet" />
-    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/about.css" rel="stylesheet" />
     <link href="./css/reset.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,11 +23,11 @@
   </head>
   <body>
     <!-- NAV BAR -->
-    <header class="nav-container">
+    <nav class="nav-container">
       <div class="nav-name">
         <a href="./about.html" class="hover-underline">Joseph Burgess</a>
       </div>
-      <nav class="nav-socials-container">
+      <div class="nav-socials-container">
         <div class="nav-socials">
           <a
             href="www.linkedin.com/in/joe-f-burgess"
@@ -91,61 +91,14 @@
           <span></span>
         </div>
         <div class="nav-links">
-          <a href="./index.html" class="hover-underline nav-underline active"
-            >Home</a
+          <a href="./index.html" class="hover-underline">Home</a>
+          <a href="./about.html" class="hover-underline nav-underline active"
+            >About</a
           >
-          <a href="./about.html" class="hover-underline">About</a>
           <a href="./projects.html" class="hover-underline">Projects</a>
           <a href="./contact.html" class="hover-underline">Contact</a>
         </div>
-      </nav>
-    </header>
-
-    <!-- HERO ABOUT ME SECTION -->
-    <main>
-      <section class="hero-container">
-        <div class="hero-header-container">
-          <div class="hero-header fade-in">
-            <h2>Joseph Burgess</h2>
-            <h1>Software Developer</h1>
-          </div>
-
-          <div class="hero-about fade-in">
-            <p>
-              Hello! My name is Joseph Bugress!! I'm a passionate software
-              developer with a knack for creating efficient and innovative
-              solutions. Explore my projects and get in touch!
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              itaque ducimus incidunt nemo sed voluptatibus libero voluptate
-              autem vitae soluta?
-            </p>
-          </div>
-
-          <div class="hero-tech-skills fade-in">
-            <h2>Technical Skills</h2>
-            <p>
-              Languages:
-              <span>JavaScript - Python - Go - CSS - HTML - SQL</span>
-            </p>
-            <p>Frameworks: <span>Flask - React - Bootstrap</span></p>
-            <p>
-              Tools:
-              <span>Git/GitHub - Linux - Docker - Command Line - Vim</span>
-            </p>
-          </div>
-        </div>
-        <div class="hero-image-div">
-          <img
-            src="./assets/linkedin.jpg"
-            class="hero-image fade-in"
-            alt="My picture"
-          />
-        </div>
-      </section>
-    </main>
-    <footer></footer>
+      </div>
+    </nav>
   </body>
 </html>

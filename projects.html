@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portfolio</title>
     <link href="./css/style.css" rel="stylesheet" />
-    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/projects.css" rel="stylesheet" />
     <link href="./css/reset.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -91,61 +91,72 @@
           <span></span>
         </div>
         <div class="nav-links">
-          <a href="./index.html" class="hover-underline nav-underline active"
-            >Home</a
-          >
+          <a href="./index.html" class="hover-underline">Home</a>
           <a href="./about.html" class="hover-underline">About</a>
-          <a href="./projects.html" class="hover-underline">Projects</a>
+          <a href="./projects.html" class="hover-underline nav-underline active"
+            >Projects</a
+          >
           <a href="./contact.html" class="hover-underline">Contact</a>
         </div>
       </nav>
     </header>
+    <section class="projects-container">
+      <div class="projects-header">
+        <h2>Featured Projects</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore,
+          adipisci!
+        </p>
+      </div>
 
-    <!-- HERO ABOUT ME SECTION -->
-    <main>
-      <section class="hero-container">
-        <div class="hero-header-container">
-          <div class="hero-header fade-in">
-            <h2>Joseph Burgess</h2>
-            <h1>Software Developer</h1>
+      <!-- FLEX COLUMN -->
+      <div class="projects-cards-container">
+        <!-- FLEX ROW -->
+        <div class="project-card">
+          <div class="project-card fade-in">
+            <img src="./assets/project1.png" alt="Project 1 Screenshot" />
+            <h3>Project One</h3>
+            <p>
+              A brief description of Project One. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+            <a href="#" class="hover-underline">View Project</a>
           </div>
 
-          <div class="hero-about fade-in">
+          <div class="project-card fade-in">
+            <img src="./assets/project2.png" alt="Project 2 Screenshot" />
+            <h3>Project Two</h3>
             <p>
-              Hello! My name is Joseph Bugress!! I'm a passionate software
-              developer with a knack for creating efficient and innovative
-              solutions. Explore my projects and get in touch!
+              A brief description of Project Two. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
             </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              itaque ducimus incidunt nemo sed voluptatibus libero voluptate
-              autem vitae soluta?
-            </p>
-          </div>
-
-          <div class="hero-tech-skills fade-in">
-            <h2>Technical Skills</h2>
-            <p>
-              Languages:
-              <span>JavaScript - Python - Go - CSS - HTML - SQL</span>
-            </p>
-            <p>Frameworks: <span>Flask - React - Bootstrap</span></p>
-            <p>
-              Tools:
-              <span>Git/GitHub - Linux - Docker - Command Line - Vim</span>
-            </p>
+            <a href="#" class="hover-underline">View Project</a>
           </div>
         </div>
-        <div class="hero-image-div">
-          <img
-            src="./assets/linkedin.jpg"
-            class="hero-image fade-in"
-            alt="My picture"
-          />
+
+        <!-- FLEX ROW -->
+        <div class="project-card">
+          <div class="project-card fade-in">
+            <img src="./assets/project3.png" alt="Project 3 Screenshot" />
+            <h3>Project Three</h3>
+            <p>
+              A brief description of Project Three. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+            <a href="#" class="hover-underline">View Project</a>
+          </div>
+
+          <div class="project-card fade-in">
+            <img src="./assets/project3.png" alt="Project 3 Screenshot" />
+            <h3>Project Four</h3>
+            <p>
+              A brief description of Project Three. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+            <a href="#" class="hover-underline">View Project</a>
+          </div>
         </div>
-      </section>
-    </main>
-    <footer></footer>
+      </div>
+    </section>
   </body>
 </html>
