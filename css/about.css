@@ -1,0 +1,58 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  height: 150vh;
+}
+
+/* ABOUT HEADER */
+.header-div {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header-div h1 {
+  font-size: 4rem;
+  /* margin: 0; */
+  color: #007d32;
+  border-radius: 30px;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* ABOUT ME DIVS */
+.about-me-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  max-width: 800px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 30%;
+  margin-right: 20px;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
+}
+
+/* IMAGE ANIMATION */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 0.5s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
